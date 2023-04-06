@@ -1,5 +1,5 @@
-#include < iostream >
-#include < conio.h >
+#include <iostream>
+#include <conio.h>
 
 using namespace std;
 
@@ -33,7 +33,7 @@ cout << "#"; //walls
 if (i == y && j == x)
 cout << "*"; // snake tale
 else if (i == fruitY && j == fruitX )
-cout << "%"; // change it to change the fruit
+cout << "0"; // change it to change the fruit
 else {
 bool print = false;
 for (int k = 0; k< nTail ; k++) {
